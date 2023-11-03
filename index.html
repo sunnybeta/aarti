@@ -1,0 +1,88 @@
+<!DOCTYPE HTML5>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Om</title>
+	<link rel="stylesheet" href="style.css">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+	<header>
+		ॐ भूर् भुवः स्वः। तत् सवितुर्वरेण्यं। भर्गो देवस्य धीमहि। धियो यो नः प्रचोदयात् ॥
+	</header>
+	<main>
+		</div>
+		<div class=search>
+			<div class=bar>
+				<input type="text" placeholder="Search ..." oninput="search()"></input>
+			</div>
+			<i class="bx bx-search" onclick="search()"></i>
+			<i class="bx bx-stop-circle" onclick="stop()"></i>
+			<i class="bx bx-play-circle" onclick="resume()"></i>
+		</div>
+		<div class="music-player">
+		</div>
+		<div class=cards>
+			<div id="jai-ganesh-deva" class="card">
+				<img src="images/ganesh.jpg" onclick="play(event)" alt="Shree Ganesh" height=360 width=240>
+				<div class="title">
+					Shree Ganesh Ji Ki Aarti
+				</div>
+				<div class="artist">
+					Anuradha Paudwal
+				</div>
+			</div>
+			<div id="jai-ambe-gauri" class=card>
+				<img src="images/ambeji.jpg" onclick="play(event)" alt="Jai Ambe Gauri" height=360 width=240>
+				<div class="title">
+					Jai Ambe Gauri Ji Ki Aarti
+				</div>
+				<div class="artist">
+					Anuradha Paudwal
+				</div>
+			</div>
+			<div id="om-namah-shivay" class="card">
+				<img src="images/shiv.jpg" onclick="play(event)" alt="Shiv" height=360 width=240>
+				<div class="title">
+					Om Namah Shivay	
+				</div>
+				<div class="artist">
+					Kavitha Krishnamurthy
+				</div>
+			</div>
+			<div id="om-jai-shiv-omkara" class="card">
+				<img src="images/shiv2.jpg" onclick="play(event)" alt="Shiv" height=360 width=240>
+				<div class="title">
+					Om Jai Shiv Omkara
+				</div>
+				<div class="artist">
+					Anuradha Paudwal
+				</div>
+			</div>
+			<div id="aarti-hanuman-lala-ki" class="card">
+				<img src="images/hanuman.jpg" onclick="play(event)" alt="Shree Hanuman" height=360 width=240>
+				<div class="title">
+					Shree Hanuman Chalisa
+				</div>
+				<div class="artist">
+					Hariharan
+				</div>
+			</div>
+			<div id="hanuman-chalisa-ashtak" class="card">
+				<img src="images/hanuman2.jpg" onclick="play(event)" alt="Shree Hanuman" height=360 width=240>
+				<div class="title">
+					Hanuman Chalisa Ashtak
+				</div>
+				<div class="artist">
+					Hariharan
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer>
+		© Sunny Beta, 2023
+	</footer>
+	<script src="script.js"></script>
+</body>
+</html>
